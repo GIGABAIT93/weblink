@@ -1,0 +1,14 @@
+{
+  "popular": {
+    "en-US": "Popular!",
+    "fr-FR": "Populaire !"
+  },
+  "unique": {
+    "en-US": "Unique!",
+    "fr-FR": "Unique !"
+  },
+  "community_crafted": {
+    "en-US": "Community crafted!",
+    "fr-FR": "Crafté par la communauté !"
+  }
+}
