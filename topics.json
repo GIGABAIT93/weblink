@@ -1,0 +1,26 @@
+{
+  "survival": {
+    "en-US": "Survival",
+    "fr-FR": "Survie"
+  },
+  "competition": {
+    "en-US": "Competition",
+    "fr-FR": "Compétition"
+  },
+  "social": {
+    "en-US": "Social",
+    "fr-FR": "Social"
+  },
+  "gameplay": {
+    "en-US": "Gameplay",
+    "fr-FR": "Jouabilité"
+  },
+  "restriction": {
+    "en-US": "Restriction",
+    "fr-FR": "Restriction"
+  },
+  "tweak": {
+    "en-US": "Tweak",
+    "fr-FR": "Modification"
+  }
+}
