@@ -1,0 +1,114 @@
+{
+  "gamemodes": [
+    {
+      "name": "BSkyBlock",
+      "icon": "OAK_SAPLING",
+      "description": "Create your island in the sky!",
+      "repository": "BentoBoxWorld/BSkyBlock",
+      "slot": 20,
+      "topic": "survival",
+      "tag": "popular"
+    },
+    {
+      "name": "AcidIsland",
+      "icon": "OAK_BOAT",
+      "description": "Create your island in a sea full of acid!",
+      "repository": "BentoBoxWorld/AcidIsland",
+      "slot": 21,
+      "topic": "survival",
+      "tag": "unique"
+    },
+    {
+      "name": "SkyGrid",
+      "icon": "COBWEB",
+      "description": "Try out this interesting game.",
+      "repository": "BentoBoxWorld/SkyGrid",
+      "slot": 23,
+      "topic": "survival",
+      "tag": null
+    },
+    {
+      "name": "CaveBlock",
+      "icon": "STONE_PICKAXE",
+      "description": "Try to survive in a world made up of stone!",
+      "repository": "BentoBoxWorld/CaveBlock",
+      "slot": 24,
+      "topic": "survival",
+      "tag": null
+    }
+  ],
+  "addons": [
+    {
+      "name": "Level",
+      "icon": "DIAMOND",
+      "description": "Make your players compete in order to be in the Top Ten!",
+      "repository": "BentoBoxWorld/Level",
+      "slot": 10,
+      "topic": "competition",
+      "tag": null
+    },
+    {
+      "name": "Challenges",
+      "icon": "ENCHANTING_TABLE",
+      "description": "Challenges for your players!",
+      "repository": "BentoBoxWorld/Challenges",
+      "slot": 11,
+      "topic": "competition",
+      "tag": "community_crafted"
+    },
+    {
+      "name": "WelcomeWarps",
+      "icon": "SIGN",
+      "description": "Create Warps on your islands for players to come and visit!",
+      "repository": "BentoBoxWorld/addon-welcomewarpsigns",
+      "slot": 12,
+      "topic": "social",
+      "tag": null
+    },
+    {
+      "name": "Biomes",
+      "icon": "GRASS_BLOCK",
+      "description": "Allows your players to choose their island's biome.",
+      "repository": "BentoBoxWorld/Biomes",
+      "slot": 13,
+      "topic": "gameplay",
+      "tag": "community_crafted"
+    },
+    {
+      "name": "Limits",
+      "icon": "BARRIER",
+      "description": "Limit blocks and entities your players can place on their islands.",
+      "repository": "BentoBoxWorld/addon-limits",
+      "slot": 14,
+      "topic": "restriction",
+      "tag": null
+    },
+    {
+      "name": "Greenhouses",
+      "icon": "GREEN_STAINED_GLASS",
+      "description": "Personal biomes in a glass greenhouse.",
+      "repository": "BentoBoxWorld/Greenhouses",
+      "slot": 15,
+      "topic": "gameplay",
+      "tag": "unique"
+    },
+    {
+      "name": "VoidPortals",
+      "icon": "ENDER_PEARL",
+      "description": "Teleport into dimensions by jumping into the Void!",
+      "repository": "BentoBoxWorld/VoidPortals",
+      "slot": 28,
+      "topic": "tweak",
+      "tag": "community_crafted"
+    },
+    {
+      "name": "MagicCobblestoneGenerator",
+      "icon": "COBBLESTONE",
+      "description": "Turn the cobblestone generators to magic ones!",
+      "repository": "BentoBoxWorld/MagicCobblestoneGenerator",
+      "slot": 29,
+      "topic": "gameplay",
+      "tag": "community_crafted"
+    }
+  ]
+}
