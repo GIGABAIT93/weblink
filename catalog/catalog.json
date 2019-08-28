@@ -84,13 +84,22 @@
       "tag": null
     },
     {
-      "name": "Greenhouses",
-      "icon": "GREEN_STAINED_GLASS",
-      "description": "Personal biomes in a glass greenhouse.",
-      "repository": "BentoBoxWorld/Greenhouses",
-      "slot": 15,
+      "name": "IslandFly",
+      "icon": "FEATHER",
+      "description": "Let your players fly inside their island boundaries.",
+      "repository": "BentoBoxWorld/IslandFly",
+      "slot": 19,
       "topic": "gameplay",
-      "tag": "unique"
+      "tag": "new"
+    },
+    {
+      "name": "InvSwitcher",
+      "icon": "CHEST",
+      "description": "Separate player inventories between gamemode worlds.",
+      "repository": "BentoBoxWorld/invSwitcher",
+      "slot": 20,
+      "topic": "restriction",
+      "tag": "new"
     },
     {
       "name": "VoidPortals",
@@ -109,6 +118,33 @@
       "slot": 29,
       "topic": "gameplay",
       "tag": "community_crafted"
+    },
+    {
+      "name": "Greenhouses",
+      "icon": "GREEN_STAINED_GLASS",
+      "description": "Personal biomes in a glass greenhouse.",
+      "repository": "BentoBoxWorld/Greenhouses",
+      "slot": 30,
+      "topic": "gameplay",
+      "tag": "unique"
+    },
+    {
+      "name": "DimensionalTrees",
+      "icon": "DARK_OAK_SAPLING",
+      "description": "Change the materials that make up the trees in the Nether and the End.",
+      "repository": "BentoBoxWorld/DimensionalTrees",
+      "slot": 31,
+      "topic": "tweak",
+      "tag": "new"
+    },
+    {
+      "name": "CauldronWitchery",
+      "icon": "CAULDRON",
+      "description": "Let your players summon mobs using a Cauldron and some magic!",
+      "repository": "BentoBoxWorld/CauldronWitchery",
+      "slot": 32,
+      "topic": "gameplay",
+      "tag": "new"
     }
   ]
 }
