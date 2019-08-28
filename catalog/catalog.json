@@ -57,10 +57,10 @@
       "tag": "community_crafted"
     },
     {
-      "name": "WelcomeWarps",
-      "icon": "SIGN",
+      "name": "Warps",
+      "icon": "OAK_SIGN",
       "description": "Create Warps on your islands for players to come and visit!",
-      "repository": "BentoBoxWorld/addon-welcomewarpsigns",
+      "repository": "BentoBoxWorld/Warps",
       "slot": 12,
       "topic": "social",
       "tag": null
