@@ -1,14 +1,20 @@
 {
   "popular": {
     "en-US": "Popular!",
-    "fr-FR": "Populaire !"
+    "fr-FR": "Populaire !",
+    "fr": "Populaire !",
+    "de": "Populär !"
   },
   "unique": {
     "en-US": "Unique!",
-    "fr-FR": "Unique !"
+    "fr-FR": "Unique !",
+    "fr": "Unique !",
+    "de": "Einmalig !"
   },
   "community_crafted": {
     "en-US": "Community crafted!",
-    "fr-FR": "Crafté par la communauté !"
+    "fr-FR": "Créé par la communauté !",
+    "fr": "Créé par la communauté !",
+    "de": "Von der Gemeinschaft gemacht !"
   }
 }
