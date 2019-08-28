@@ -16,5 +16,11 @@
     "fr-FR": "Créé par la communauté !",
     "fr": "Créé par la communauté !",
     "de": "Von der Gemeinschaft gemacht !"
+  },
+  "new": {
+    "en-US": "New!",
+    "fr-FR": "Nouveau !"
+    "fr": "Nouveau !"
+    "de": "Neu !"
   }
 }
