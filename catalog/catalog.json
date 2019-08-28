@@ -78,7 +78,7 @@
       "name": "Limits",
       "icon": "BARRIER",
       "description": "Limit blocks and entities your players can place on their islands.",
-      "repository": "BentoBoxWorld/addon-limits",
+      "repository": "BentoBoxWorld/Limits",
       "slot": 14,
       "topic": "restriction",
       "tag": null
