@@ -94,7 +94,7 @@
     },
     {
       "name": "InvSwitcher",
-      "icon": "CHEST",
+      "icon": "ENDER_CHEST",
       "description": "Separate player inventories between gamemode worlds.",
       "repository": "BentoBoxWorld/invSwitcher",
       "slot": 20,
