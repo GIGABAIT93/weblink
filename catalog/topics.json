@@ -2,31 +2,43 @@
   "survival": {
     "en-US": "Survival",
     "fr-FR": "Survie",
+    "fr": "Survie",
+    "de": "Überleben",
     "lv": "Izdzīvošanas"
   },
   "competition": {
     "en-US": "Competition",
     "fr-FR": "Compétition",
+    "fr": "Compétition",
+    "de": "Wettkampf",
     "lv": "Sāncencības"
   },
   "social": {
     "en-US": "Social",
     "fr-FR": "Social",
+    "fr": "Social",
+    "de": "Sozial",
     "lv": "Sociāls"
   },
   "gameplay": {
     "en-US": "Gameplay",
     "fr-FR": "Jouabilité",
+    "fr": "Jouabilité",
+    "de": "Spielablauf",
     "lv": "Spēles veids"
   },
   "restriction": {
     "en-US": "Restriction",
     "fr-FR": "Restriction",
+    "fr": "Restriction",
+    "de": "Begrenzung",
     "lv": "Ierobežojošs"
   },
   "tweak": {
     "en-US": "Tweak",
     "fr-FR": "Modification",
+    "fr": "Modification",
+    "de": "Verbesserung",
     "lv": "Uzlabojums"
   }
 }
