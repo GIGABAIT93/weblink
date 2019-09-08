@@ -9,18 +9,7 @@
       "slot": 10,
       "for": "BSkyBlock",
       "author": "BONNe1704",
-      "version": "0.7.0"
-    },
-    {
-      "name": "default zh-CN",
-      "icon": "ENCHANTING_TABLE",
-      "description": "Translated default challenges library!",
-      "repository": "default_zh-CN",
-      "language": "zh-CN",
-      "slot": 11,
-      "for": "BSkyBlock",
-      "author": "Hagb",
-      "version": "0.7.0"
+      "version": "0.8.0"
     },
     {
       "name": "ASkyBlock",
