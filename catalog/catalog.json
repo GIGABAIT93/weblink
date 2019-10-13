@@ -135,7 +135,7 @@
       "repository": "BentoBoxWorld/DimensionalTrees",
       "slot": 31,
       "topic": "tweak",
-      "tag": "new"
+      "tag": "community_crafted"
     },
     {
       "name": "CauldronWitchery",
@@ -144,12 +144,12 @@
       "repository": "BentoBoxWorld/CauldronWitchery",
       "slot": 32,
       "topic": "gameplay",
-      "tag": "new"
+      "tag": "community_crafted"
     },
-        {
+    {
       "name": "Likes",
       "icon": "DIAMOND",
-      "description": "Let your players to add Likes And Dislikes to other player Islands!",
+      "description": "Let your players like or dislike other islands!",
       "repository": "BentoBoxWorld/Likes",
       "slot": 33,
       "topic": "competition",
@@ -158,7 +158,7 @@
     {
       "name": "ControlPanel",
       "icon": "COMMAND_BLOCK",
-      "description": "Adds customizable ControlPanel GUI for users!",
+      "description": "A customizable ControlPanel GUI!",
       "repository": "BentoBoxWorld/ControlPanel",
       "slot": 34,
       "topic": "tweak",
