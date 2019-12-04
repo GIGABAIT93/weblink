@@ -163,6 +163,15 @@
       "slot": 34,
       "topic": "tweak",
       "tag": "new"
+    },
+    {
+      "name": "TwerkingForTrees",
+      "icon": "OAK_SAPLING",
+      "description": "Twerk to make trees grow faster on your island.",
+      "repository": "BentoBoxWorld/TwerkingForTrees",
+      "slot": 35,
+      "topic": "tweak",
+      "tag": "new"
     }
   ]
 }
