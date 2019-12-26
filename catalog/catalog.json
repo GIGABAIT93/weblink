@@ -90,7 +90,7 @@
       "repository": "BentoBoxWorld/IslandFly",
       "slot": 19,
       "topic": "gameplay",
-      "tag": "new"
+      "tag": null
     },
     {
       "name": "InvSwitcher",
@@ -99,7 +99,7 @@
       "repository": "BentoBoxWorld/invSwitcher",
       "slot": 20,
       "topic": "restriction",
-      "tag": "new"
+      "tag": null
     },
     {
       "name": "TwerkingForTrees",
@@ -108,7 +108,7 @@
       "repository": "BentoBoxWorld/TwerkingForTrees",
       "slot": 21,
       "topic": "tweak",
-      "tag": "new"
+      "tag": "unique"
     },
     {
       "name": "VoidPortals",
@@ -162,7 +162,7 @@
       "repository": "BentoBoxWorld/Likes",
       "slot": 33,
       "topic": "competition",
-      "tag": "new"
+      "tag": "community_crafted"
     },
     {
       "name": "ControlPanel",
@@ -171,7 +171,7 @@
       "repository": "BentoBoxWorld/ControlPanel",
       "slot": 34,
       "topic": "tweak",
-      "tag": "new"
+      "tag": "community_crafted"
     }
   ]
 }
