@@ -1,0 +1,1658 @@
+{
+  "challengeList": [
+    {
+      "uniqueId": "breadmaker",
+      "friendlyName": "Brotmacher",
+      "deployed": true,
+      "description": [
+        "21 Brote backen"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BREAD\n",
+      "order": -1,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Neuling",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BREAD\n  amount: 21\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "5x Erde",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIRT\n  amount: 5\n"
+      ],
+      "rewardExperience": 30,
+      "rewardMoney": 10,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "1x Erde",
+      "maxTimes": 100,
+      "repeatExperienceReward": 10,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIRT\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "builder",
+      "friendlyName": "Baumeister",
+      "deployed": true,
+      "description": [
+        "Erreiche Insel-Level 10.",
+        "(/[label] level)."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: OAK_PLANKS\n",
+      "order": -1,
+      "challengeType": "OTHER",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Neuling",
+      "requirements": {
+        "class": "OtherRequirements",
+        "parameters": {
+          "requiredExperience": 0,
+          "takeExperience": false,
+          "requiredMoney": 0.0,
+          "takeMoney": false,
+          "requiredIslandLevel": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "1x Eisen-Spitzhacke, 5x Erde und einen Schwamm",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_PICKAXE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIRT\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SPONGE\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 50,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "cobblemaker",
+      "friendlyName": "Stein-Macher",
+      "deployed": true,
+      "description": [
+        "Erschaffe einen Pflasterstein-",
+        "Generator und baue 64 Steine ab."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COBBLESTONE\n",
+      "order": -1,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Neuling",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COBBLESTONE\n  amount: 64\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "4x Leder - Schuhe oder vielleicht ein Buch?",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: LEATHER\n  amount: 4\n"
+      ],
+      "rewardExperience": 30,
+      "rewardMoney": 10,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "1x Leder",
+      "maxTimes": 100,
+      "repeatExperienceReward": 10,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: LEATHER\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "dyemaker",
+      "friendlyName": "Farben-Macher",
+      "deployed": true,
+      "description": [
+        "Stelle 32x Kaktusgrüne",
+        "Farbe her."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GREEN_DYE\n",
+      "order": -1,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Neuling",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GREEN_DYE\n  amount: 32\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "2x Eiche, 2x Birke, 2x Tropen und 2x Fichten-Setzlinge",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: OAK_SAPLING\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SPRUCE_SAPLING\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BIRCH_SAPLING\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: JUNGLE_SAPLING\n  amount: 2\n"
+      ],
+      "rewardExperience": 30,
+      "rewardMoney": 10,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "1x Setzling jeder Art",
+      "maxTimes": 100,
+      "repeatExperienceReward": 10,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: OAK_SAPLING\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SPRUCE_SAPLING\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BIRCH_SAPLING\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: JUNGLE_SAPLING\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ACACIA_SAPLING\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DARK_OAK_SAPLING\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "glassmaker",
+      "friendlyName": "Glas-Macher",
+      "deployed": true,
+      "description": [
+        "Stelle 1x Glass-Block her."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GLASS\n",
+      "order": -1,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Neuling",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GLASS\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "1x Eis-Block",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ICE\n"
+      ],
+      "rewardExperience": 30,
+      "rewardMoney": 10,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "1x Eis-Block",
+      "maxTimes": 2,
+      "repeatExperienceReward": 10,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ICE\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "papermaker",
+      "friendlyName": "Papier-Macher",
+      "deployed": true,
+      "description": [
+        "Stelle 21x Papier-Seiten her."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PAPER\n",
+      "order": -1,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Neuling",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PAPER\n  amount: 21\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "5x Erde und 15x Ton-Blöcke",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIRT\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CLAY\n  amount: 15\n"
+      ],
+      "rewardExperience": 30,
+      "rewardMoney": 15,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "2x Sand-Blöcke",
+      "maxTimes": 100,
+      "repeatExperienceReward": 10,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SAND\n  amount: 2\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "seedbank",
+      "friendlyName": "Samenbank",
+      "deployed": true,
+      "description": [
+        "Sammle 64x Melonenkerne,",
+        "64x Kürbiskerne und 64x",
+        "Weizen-Samen."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PUMPKIN_SEEDS\n",
+      "order": -1,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Neuling",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MELON_SEEDS\n  amount: 64\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PUMPKIN_SEEDS\n  amount: 64\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: WHEAT_SEEDS\n  amount: 64\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "5x Erde und 20x Ranken",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIRT\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: VINE\n  amount: 20\n"
+      ],
+      "rewardExperience": 30,
+      "rewardMoney": 15,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "2x Erde und 5x Ranken",
+      "maxTimes": 100,
+      "repeatExperienceReward": 10,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIRT\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: VINE\n  amount: 20\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "stewmaker",
+      "friendlyName": "Eintopf",
+      "deployed": true,
+      "description": [
+        "Koche 18 Schüsseln",
+        "von Pilzsuppen."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSHROOM_STEW\n",
+      "order": -1,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Neuling",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSHROOM_STEW\n  amount: 18\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "2x Mycelium",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MYCELIUM\n  amount: 2\n"
+      ],
+      "rewardExperience": 30,
+      "rewardMoney": 15,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "1x Mycelium",
+      "maxTimes": 100,
+      "repeatExperienceReward": 10,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MYCELIUM\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "angler",
+      "friendlyName": "Angler",
+      "deployed": true,
+      "description": [
+        "Fange und Koche 10x",
+        "normale Fische (Keine Anderen)."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COOKED_COD\n",
+      "order": -1,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Kompetent",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COOKED_COD\n  amount: 10\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "16x Redstone, 5x Tintenfisch-Säcke, 5x Eisen (Erz)",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: REDSTONE\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_ORE\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: INK_SAC\n  amount: 5\n"
+      ],
+      "rewardExperience": 75,
+      "rewardMoney": 75,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "2x Redstone, 1x Tintenfisch-Säcke, 1x Eisen (Erz)",
+      "maxTimes": 100,
+      "repeatExperienceReward": 15,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: REDSTONE\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_ORE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: INK_SAC\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "cookiemaker",
+      "friendlyName": "Keks-Macher",
+      "deployed": true,
+      "description": [
+        "Stelle 128x Kekse und einen",
+        "Eimer mit Milch her."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COOKIE\n",
+      "order": -1,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Kompetent",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MILK_BUCKET\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COOKIE\n  amount: 128\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "16x Redstone, 5x Eisen (Erz)",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: REDSTONE\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_ORE\n  amount: 5\n"
+      ],
+      "rewardExperience": 75,
+      "rewardMoney": 75,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "2x Redstone, 1x Eisen (Erz)",
+      "maxTimes": 100,
+      "repeatExperienceReward": 15,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: REDSTONE\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_ORE\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "craftsman",
+      "friendlyName": "Handwerker",
+      "deployed": true,
+      "description": [
+        "Erreiche Insel-Level 75",
+        "(/[label] level)."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_BLOCK\n",
+      "order": -1,
+      "challengeType": "OTHER",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Kompetent",
+      "requirements": {
+        "class": "OtherRequirements",
+        "parameters": {
+          "requiredExperience": 0,
+          "takeExperience": false,
+          "requiredMoney": 0.0,
+          "takeMoney": false,
+          "requiredIslandLevel": 75,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "10x Obsidian",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: OBSIDIAN\n  amount: 10\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 50,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "farmer",
+      "friendlyName": "Farmer",
+      "deployed": true,
+      "description": [
+        "Ernte 64 Einheiten von:",
+        "Weizen, Zucker, Melonen,",
+        "Karotten, Kartoffeln & Kürbise."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: WHEAT\n",
+      "order": -1,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Kompetent",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: WHEAT\n  amount: 64\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SUGAR\n  amount: 64\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MELON\n  amount: 64\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CARROT\n  amount: 64\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTATO\n  amount: 64\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CARVED_PUMPKIN\n  amount: 64\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "16x Redstone, 1x Kakao-Bohne, 1x Spawn-Ei (Huhn, Kuh & Schwein)",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: REDSTONE\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COCOA_BEANS\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PIG_SPAWN_EGG\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COW_SPAWN_EGG\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CHICKEN_SPAWN_EGG\n"
+      ],
+      "rewardExperience": 75,
+      "rewardMoney": 75,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "1x Kakao-Bohne, 1x Spawn-Ei (Huhn, Kuh & Schwein)",
+      "maxTimes": 100,
+      "repeatExperienceReward": 20,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COCOA_BEANS\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PIG_SPAWN_EGG\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COW_SPAWN_EGG\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CHICKEN_SPAWN_EGG\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "grinder",
+      "friendlyName": "Grinder",
+      "deployed": true,
+      "description": [
+        "Töte Monster und sammle:",
+        "64x Verrottetes Fleisch, 32x",
+        "Knochen, 32x Fäden",
+        "32x Pfeile, 16x Schießpulver",
+        "und 5x Spinnen-Augen."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BONE\n",
+      "order": -1,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Kompetent",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ROTTEN_FLESH\n  amount: 64\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: STRING\n  amount: 32\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GUNPOWDER\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ARROW\n  amount: 32\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BONE\n  amount: 32\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SPIDER_EYE\n  amount: 5\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "16x Redstone, 1x Feuerstein, 1x Wasseratmungs-Trank, 1x Nachtsicht-Trank und 5x Eisen (Erz)",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: REDSTONE\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_ORE\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: FLINT\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:water_breathing\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:night_vision\n"
+      ],
+      "rewardExperience": 75,
+      "rewardMoney": 75,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "2x Redstone, 1x Feuerstein, 1x Wasseratmungs-Trank und 1x Eisen (Erz)",
+      "maxTimes": 100,
+      "repeatExperienceReward": 15,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: REDSTONE\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_ORE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: FLINT\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:water_breathing\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "homestead",
+      "friendlyName": "Heimstätte",
+      "deployed": true,
+      "description": [
+        "Baue ein Haus, welches",
+        "mindestens folgendes besitzt:",
+        "1x Holztür, 1x Bett,",
+        "1x Bücherregal, 1x Werkbank",
+        "1x Ofen, 1x Glass-Block",
+        "und 1x Fackel."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: WHITE_BED\n",
+      "order": -1,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Kompetent",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "GLASS": 1,
+            "BOOKSHELF": 1,
+            "WHITE_BED": 1,
+            "FURNACE": 1,
+            "TORCH": 1,
+            "CRAFTING_TABLE": 1,
+            "OAK_DOOR": 1
+          },
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "1x Plattenspieler, 1x Schallplatte, 10x Lapis-Blöcke",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: JUKEBOX\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_WAIT\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: LAPIS_BLOCK\n  amount: 10\n"
+      ],
+      "rewardExperience": 100,
+      "rewardMoney": 100,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "treecutter",
+      "friendlyName": "Holzfäller",
+      "deployed": true,
+      "description": [
+        "Erbaue eine Holz-Farm und",
+        "sammle 16x Eiche, 16x Birke,",
+        "16x Tropen und 16x Fichten-Holz."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: OAK_LOG\n",
+      "order": -1,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Kompetent",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: OAK_LOG\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: OAK_LOG\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SPRUCE_LOG\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BIRCH_LOG\n  amount: 16\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "16x Redstone, 5x Eisen (Erz), 1x Spawn-Ei (Wolf)",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: REDSTONE\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_ORE\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: WOLF_SPAWN_EGG\n"
+      ],
+      "rewardExperience": 75,
+      "rewardMoney": 75,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "2x Redstone, 1x Eisen (Erz)",
+      "maxTimes": 100,
+      "repeatExperienceReward": 15,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: REDSTONE\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_ORE\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "baker",
+      "friendlyName": "Bäker",
+      "deployed": true,
+      "description": [
+        "Backe 5x Kuchen und 5x",
+        "Kürbis-Kuchen."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CAKE\n",
+      "order": -1,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Experte",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CAKE\n  amount: 5\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PUMPKIN_PIE\n  amount: 5\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "5x Goldbarren und 1x Diamant",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLD_INGOT\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n"
+      ],
+      "rewardExperience": 100,
+      "rewardMoney": 50,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "1x Eisen (Erz)",
+      "maxTimes": 100,
+      "repeatExperienceReward": 15,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_ORE\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "enderpearls",
+      "friendlyName": "Enderperlen",
+      "deployed": true,
+      "description": [
+        "Sammle 15x Enderperlen",
+        "von Endermännern."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ENDER_PEARL\n",
+      "order": -1,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Experte",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ENDER_PEARL\n  amount: 15\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "5x Goldbarren und 1x Lohenrute",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLD_INGOT\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BLAZE_ROD\n"
+      ],
+      "rewardExperience": 100,
+      "rewardMoney": 50,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "1x Goldbarren und 1x Lohenrute",
+      "maxTimes": 100,
+      "repeatExperienceReward": 15,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLD_INGOT\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BLAZE_ROD\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "mason",
+      "friendlyName": "Steinhauer",
+      "deployed": true,
+      "description": [
+        "Erreiche Insel-Level 150",
+        "(/[label] level)."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLD_BLOCK\n",
+      "order": -1,
+      "challengeType": "OTHER",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Experte",
+      "requirements": {
+        "class": "OtherRequirements",
+        "parameters": {
+          "requiredExperience": 0,
+          "takeExperience": false,
+          "requiredMoney": 0.0,
+          "takeMoney": false,
+          "requiredIslandLevel": 150,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "1x Diamant, 20x Erde und 2x Gold-Blöcke",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIRT\n  amount: 20\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLD_BLOCK\n  amount: 2\n"
+      ],
+      "rewardExperience": 150,
+      "rewardMoney": 150,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "nether",
+      "friendlyName": "Nether",
+      "deployed": true,
+      "description": [
+        "Baue ein Nether-Portal",
+        "auf deine Insel und aktiviere",
+        "es."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: NETHERRACK\n",
+      "order": -1,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Experte",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "NETHER_PORTAL": 1,
+            "OBSIDIAN": 10
+          },
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "1x Diamant-Schwert",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_SWORD\n"
+      ],
+      "rewardExperience": 100,
+      "rewardMoney": 100,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "pioneer",
+      "friendlyName": "Pionier",
+      "deployed": true,
+      "description": [
+        "Stelle 1x Karte her und nutze sie, 1x",
+        "Kompass, 1x Uhr und sammle 64x",
+        "Netherrack, 16x Seelen-Sand",
+        "und 1x Ghast-Träne."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MAP\n",
+      "order": -1,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Experte",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: NETHERRACK\n  amount: 64\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SOUL_SAND\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GHAST_TEAR\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MAP\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COMPASS\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CLOCK\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "256x Schienen, 32x Antriebsschinen, 1x Spawn-Ei (Ocelot) und 1x Diamant",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POWERED_RAIL\n  amount: 32\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: RAIL\n  amount: 256\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: OCELOT_SPAWN_EGG\n"
+      ],
+      "rewardExperience": 100,
+      "rewardMoney": 100,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "1x Eisen (Erz)",
+      "maxTimes": 100,
+      "repeatExperienceReward": 20,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_ORE\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "slimeballfarmer",
+      "friendlyName": "Schleim-Farmer",
+      "deployed": true,
+      "description": [
+        "Sammle 40x Schleimbälle",
+        "von Schleimen."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SLIME_BALL\n",
+      "order": -1,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Experte",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SLIME_BALL\n  amount: 40\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "5x Goldbarren und 5x Eisen-Blöcke.",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLD_INGOT\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_ORE\n  amount: 5\n"
+      ],
+      "rewardExperience": 100,
+      "rewardMoney": 50,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "8x Redstone",
+      "maxTimes": 100,
+      "repeatExperienceReward": 15,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: REDSTONE\n  amount: 8\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "alchemist",
+      "friendlyName": "Alchemist",
+      "deployed": true,
+      "description": [
+        "Braue 1x Feuer-Resistenz,",
+        "1x Langsamkeit, 1x",
+        "Schnelligkeit, 1x Heilung,",
+        "1x Schadens, 1x Unsichtbarkeits,",
+        "1x Schadens und 1x Regenerationstrank."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BREWING_STAND\n",
+      "order": -1,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Fortgeschritten",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:fire_resistance\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:slowness\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:swiftness\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:healing\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:harming\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:invisibility\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:strength\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:regeneration\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "1x Verzauberungstisch",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ENCHANTING_TABLE\n"
+      ],
+      "rewardExperience": 200,
+      "rewardMoney": 200,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "1x Diamant",
+      "maxTimes": 0,
+      "repeatExperienceReward": 20,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "beaconator",
+      "friendlyName": "Das Leuchtfeuer",
+      "deployed": true,
+      "description": [
+        "Baue ein Leuchtfeuer und",
+        "lass es scheinen!"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BEACON\n",
+      "order": -1,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Fortgeschritten",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "BEACON": 1
+          },
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "20x Steinziegel jeder Art",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: STONE_BRICKS\n  amount: 20\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MOSSY_STONE_BRICKS\n  amount: 20\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CRACKED_STONE_BRICKS\n  amount: 20\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CHISELED_STONE_BRICKS\n  amount: 20\n"
+      ],
+      "rewardExperience": 300,
+      "rewardMoney": 300,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "culinaryartist",
+      "friendlyName": "Kulinarischer Künstler",
+      "deployed": true,
+      "description": [
+        "Sammle 1x jeder Art",
+        "von gekochtem/hergestelltem",
+        "essbaren Futter (Nichts Rohes,",
+        "Kein Zombiefleisch und keine",
+        "Goldenen-Äpfel.)"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLDEN_APPLE\n",
+      "order": -1,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Fortgeschritten",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BAKED_POTATO\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BREAD\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CAKE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COOKED_CHICKEN\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COOKED_COD\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COOKED_PORKCHOP\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COOKIE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLDEN_APPLE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLDEN_CARROT\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSHROOM_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PUMPKIN_PIE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COOKED_BEEF\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "2x Gold-Blöcke, 3x Schallplatten, 1x Spawn-Ei (Pilzkuh) und 5x Smaragde.",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLD_BLOCK\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_CAT\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_BLOCKS\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_FAR\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MOOSHROOM_SPAWN_EGG\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: EMERALD\n  amount: 5\n"
+      ],
+      "rewardExperience": 200,
+      "rewardMoney": 200,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "10x Goldbarren, 1x Spawn-Ei (Pilzkuh) und 1x Smaragd",
+      "maxTimes": 100,
+      "repeatExperienceReward": 20,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLD_INGOT\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MOOSHROOM_SPAWN_EGG\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: EMERALD\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "dj",
+      "friendlyName": "DJ",
+      "deployed": true,
+      "description": [
+        "Stelle einen Plattenspieler her",
+        "und sammle alle Schallplatten."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_FAR\n",
+      "order": -1,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Fortgeschritten",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_13\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_CAT\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_BLOCKS\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_CHIRP\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_FAR\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_MALL\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_MELLOHI\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_STAL\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_STRAD\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_WARD\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_11\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_WAIT\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: JUKEBOX\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "3x Diamanten, 10x Smaragde und 5x Goldbarren.",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 3\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: EMERALD\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLD_INGOT\n  amount: 5\n"
+      ],
+      "rewardExperience": 200,
+      "rewardMoney": 200,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "1x Diamant, 5x Smaragde und 2x Goldbarren.",
+      "maxTimes": 100,
+      "repeatExperienceReward": 20,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: EMERALD\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLD_INGOT\n  amount: 2\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "gemcollector",
+      "friendlyName": "Edelsteinsammler",
+      "deployed": true,
+      "description": [
+        "Sammle 50x Smaragde"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: EMERALD\n",
+      "order": -1,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Fortgeschritten",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: EMERALD\n  amount: 50\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "10x Diamanten",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 10\n"
+      ],
+      "rewardExperience": 200,
+      "rewardMoney": 200,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "2x Goldbarren",
+      "maxTimes": 100,
+      "repeatExperienceReward": 20,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLD_INGOT\n  amount: 2\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "itsamonsterparty",
+      "friendlyName": "Es ist eine Monster-Party",
+      "deployed": true,
+      "description": [
+        "Hab eine Party - alle",
+        "Monster sind eingeladen! Geh",
+        "nah an ein Skelett,",
+        "Zombie, Spinne, Creeper",
+        "und Enderman zur gleichen",
+        "Zeit."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SKELETON_SKULL\n",
+      "order": -1,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Fortgeschritten",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {},
+          "removeBlocks": false,
+          "requiredEntities": {
+            "ZOMBIE": 1,
+            "SKELETON": 1,
+            "SPIDER": 1,
+            "ENDERMAN": 1,
+            "CREEPER": 1
+          },
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Köpfe!",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SKELETON_SKULL\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ZOMBIE_HEAD\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PLAYER_HEAD\n  amount: 2\n"
+      ],
+      "rewardExperience": 400,
+      "rewardMoney": 200,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "itsaparty",
+      "friendlyName": "Es ist eine Party",
+      "deployed": true,
+      "description": [
+        "Hab eine Party! Lade 4",
+        "Freunde ein."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PUMPKIN_PIE\n",
+      "order": -1,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Fortgeschritten",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {},
+          "removeBlocks": false,
+          "requiredEntities": {
+            "PLAYER": 5
+          },
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "6x Smaragde und 6x Kürbiskuchen.",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: EMERALD\n  amount: 6\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PUMPKIN_PIE\n  amount: 6\n"
+      ],
+      "rewardExperience": 200,
+      "rewardMoney": 200,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "ittakesavillage",
+      "friendlyName": "Es braucht ein Dorf",
+      "deployed": true,
+      "description": [
+        "Halte  ein Dorftreffen ab",
+        "mit 10 Dorfbewohnern!"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: STONE\n",
+      "order": -1,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Fortgeschritten",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {},
+          "removeBlocks": false,
+          "requiredEntities": {
+            "VILLAGER": 10
+          },
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "4x Trichter",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: HOPPER\n  amount: 4\n"
+      ],
+      "rewardExperience": 300,
+      "rewardMoney": 300,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "myprecious",
+      "friendlyName": "Mein Schatz",
+      "deployed": true,
+      "description": [
+        "Baue einen Eisen-Golem."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: NAME_TAG\n",
+      "order": -1,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Fortgeschritten",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {},
+          "removeBlocks": false,
+          "requiredEntities": {
+            "IRON_GOLEM": 1
+          },
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "1x Namensschild, 1x Amboss, 1x Kessel und 2x Eisen-Blöcke.",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: NAME_TAG\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ANVIL\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CAULDRON\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_BLOCK\n  amount: 2\n"
+      ],
+      "rewardExperience": 300,
+      "rewardMoney": 300,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "shepherd",
+      "friendlyName": "Schäfer",
+      "deployed": true,
+      "description": [
+        "Sammle 5x Wolle",
+        "von jeder Farbe."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MAGENTA_WOOL\n",
+      "order": -1,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Fortgeschritten",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: WHITE_WOOL\n  amount: 5\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ORANGE_WOOL\n  amount: 5\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MAGENTA_WOOL\n  amount: 5\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: LIGHT_BLUE_WOOL\n  amount: 5\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: YELLOW_WOOL\n  amount: 5\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: LIME_WOOL\n  amount: 5\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PINK_WOOL\n  amount: 5\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GRAY_WOOL\n  amount: 5\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: LIGHT_GRAY_WOOL\n  amount: 5\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CYAN_WOOL\n  amount: 5\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PURPLE_WOOL\n  amount: 5\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BLUE_WOOL\n  amount: 5\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BROWN_WOOL\n  amount: 5\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GREEN_WOOL\n  amount: 5\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: RED_WOOL\n  amount: 5\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BLACK_WOOL\n  amount: 5\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "2x Diamanten, 5x Smaragde, 3x Schallplatten, 1x Spawn-Ei (Schaf)",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_MELLOHI\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_STAL\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_MALL\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SHEEP_SPAWN_EGG\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: EMERALD\n  amount: 5\n"
+      ],
+      "rewardExperience": 200,
+      "rewardMoney": 200,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "1x Smaragd, 1x Spawn-Ei (Schaf)",
+      "maxTimes": 100,
+      "repeatExperienceReward": 20,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: EMERALD\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SHEEP_SPAWN_EGG\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "snowplay",
+      "friendlyName": "Schneespiel",
+      "deployed": true,
+      "description": [
+        "Baue einen Schneemann."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SNOWBALL\n",
+      "order": -1,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Fortgeschritten",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {},
+          "removeBlocks": false,
+          "requiredEntities": {
+            "SNOWMAN": 1
+          },
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "1x Diamant Schaufel - Zeit zum Graben!",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_SHOVEL\n"
+      ],
+      "rewardExperience": 300,
+      "rewardMoney": 300,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "acidduke",
+      "friendlyName": "Erzherzog",
+      "deployed": true,
+      "description": [
+        "Erreiche ein Insel-Level",
+        "von 1000"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_BLOCK\n",
+      "order": -1,
+      "challengeType": "OTHER",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Elite",
+      "requirements": {
+        "class": "OtherRequirements",
+        "parameters": {
+          "requiredExperience": 0,
+          "takeExperience": false,
+          "requiredMoney": 0.0,
+          "takeMoney": false,
+          "requiredIslandLevel": 1000,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "1x Diamant",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n"
+      ],
+      "rewardExperience": 250,
+      "rewardMoney": 250,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    }
+  ],
+  "challengeLevelList": [
+    {
+      "uniqueId": "Neuling",
+      "friendlyName": "Neuling",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BOOK\n",
+      "lockedIcon": null,
+      "world": "",
+      "order": 0,
+      "waiverAmount": 1,
+      "unlockMessage": "",
+      "rewardText": "",
+      "rewardItems": [],
+      "rewardExperience": 0,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "challenges": [
+        "breadmaker",
+        "papermaker",
+        "stewmaker",
+        "cobblemaker",
+        "seedbank",
+        "builder",
+        "dyemaker",
+        "glassmaker"
+      ]
+    },
+    {
+      "uniqueId": "Kompetent",
+      "friendlyName": "Kompetent",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BOOK\n",
+      "lockedIcon": null,
+      "world": "",
+      "order": 1,
+      "waiverAmount": 1,
+      "unlockMessage": "Glückwunsch - Du hast das ein neues Level erreicht: &9Kompetent!",
+      "rewardText": "1x Diamant",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n"
+      ],
+      "rewardExperience": 100,
+      "rewardMoney": 100,
+      "rewardCommands": [],
+      "challenges": [
+        "homestead",
+        "grinder",
+        "craftsman",
+        "cookiemaker",
+        "farmer",
+        "angler",
+        "treecutter"
+      ]
+    },
+    {
+      "uniqueId": "Experte",
+      "friendlyName": "Experte",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BOOK\n",
+      "lockedIcon": null,
+      "world": "",
+      "order": 2,
+      "waiverAmount": 1,
+      "unlockMessage": "Glückwunsch - Du hast das ein neues Level erreicht: &9Experte",
+      "rewardText": "3x Diamanten",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 3\n"
+      ],
+      "rewardExperience": 100,
+      "rewardMoney": 100,
+      "rewardCommands": [],
+      "challenges": [
+        "nether",
+        "mason",
+        "enderpearls",
+        "slimeballfarmer",
+        "baker",
+        "pioneer"
+      ]
+    },
+    {
+      "uniqueId": "Fortgeschritten",
+      "friendlyName": "Fortgeschritten",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BOOK\n",
+      "lockedIcon": null,
+      "world": "",
+      "order": 3,
+      "waiverAmount": 1,
+      "unlockMessage": "Glückwunsch - Du hast das ein neues Level erreicht: &bFortgeschritten!",
+      "rewardText": "5x Diamanten",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 5\n"
+      ],
+      "rewardExperience": 100,
+      "rewardMoney": 100,
+      "rewardCommands": [],
+      "challenges": [
+        "ittakesavillage",
+        "alchemist",
+        "gemcollector",
+        "myprecious",
+        "dj",
+        "beaconator",
+        "snowplay",
+        "itsaparty",
+        "itsamonsterparty",
+        "shepherd",
+        "culinaryartist"
+      ]
+    },
+    {
+      "uniqueId": "Elite",
+      "friendlyName": "Elite",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BOOK\n",
+      "lockedIcon": null,
+      "world": "",
+      "order": 4,
+      "waiverAmount": 1,
+      "unlockMessage": "Glückwunsch - Du hast das ein neues Level erreicht: &dElite",
+      "rewardText": "7x Diamanten",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 7\n"
+      ],
+      "rewardExperience": 100,
+      "rewardMoney": 100,
+      "rewardCommands": [],
+      "challenges": [
+        "acidduke"
+      ]
+    }
+  ],
+  "version": "0.8.0"
+}
